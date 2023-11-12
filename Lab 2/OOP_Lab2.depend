@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1699446852 source:e:\codeblocks projects\oop_lab2\queue.cpp
+	<iostream>
+
+1699449863 source:e:\codeblocks projects\oop_lab2\stack list.cpp
+	<iostream>
+

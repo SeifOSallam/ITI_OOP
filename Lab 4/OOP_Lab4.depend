@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1699792691 source:e:\codeblocks projects\oop_lab4\complex.cpp
+	<iostream>
+
+1699793140 source:e:\codeblocks projects\oop_lab4\stack.cpp
+	<iostream>
+

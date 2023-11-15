@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1699966888 source:e:\codeblocks projects\oop_lab6\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<conio.h>
+	"graphics.h"
+	"Classes.h"
+
+1643440648 e:\codeblocks projects\oop_lab6\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1699966662 e:\codeblocks projects\oop_lab6\classes.h
+	<iostream>
+
+1699963500 source:e:\codeblocks projects\oop_lab6\point.cpp
+	<iostream>
+	"Classes.h"
+
+1699961951 source:e:\codeblocks projects\oop_lab6\shape.cpp
+	<iostream>
+	"Classes.h"
+
+1699966927 source:e:\codeblocks projects\oop_lab6\square.cpp
+	<iostream>
+	"graphics.h"
+	"Classes.h"
+
+1699966266 source:e:\codeblocks projects\oop_lab6\circle.cpp
+	<iostream>
+	"graphics.h"
+	"Classes.h"
+
+1699966183 source:e:\codeblocks projects\oop_lab6\line.cpp
+	<iostream>
+	"graphics.h"
+	"Classes.h"
+

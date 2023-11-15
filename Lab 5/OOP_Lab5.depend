@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1699882311 source:e:\codeblocks projects\oop_lab5\main.cpp
+	<iostream>
+	"graphics.h"
+
+1643440648 e:\codeblocks projects\oop_lab5\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1699873581 source:e:\codeblocks projects\oop_lab5\test.cpp
+	<iostream>
+	"graphics.h"
+

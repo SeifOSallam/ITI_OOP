@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Classes.h"
+#include "Point.h"
 
 using namespace std;
 Point::Point(){

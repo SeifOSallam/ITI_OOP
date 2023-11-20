@@ -1,6 +1,6 @@
 #include <iostream>
 #include "graphics.h"
-#include "Classes.h"
+#include "Line.h"
 
 using namespace std;
 

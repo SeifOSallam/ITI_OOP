@@ -12,11 +12,7 @@ int main()
     vector<Shape*> shapes;
 
     shapes.push_back(new SquareComposite(100,150,300,350, Color::YELLOW));
-    //shapes[0]->draw();
-    //SquareComposite s;
-    //cin>>s;
-    //cout<<s;
-    //_getch();
+
 
     while(true) {
         cleardevice();
@@ -28,7 +24,8 @@ int main()
         cout<<"2- Insert Circle"<<endl;
         cout<<"3- Insert Line"<<endl;
         cout<<"4- Print All"<<endl;
-        cout<<"5- Exit"<<endl;
+        cout<<"5- Clear All"<<endl;
+        cout<<"6- Exit"<<endl;
         char c = _getch();
         switch(c) {
             case '1': {
@@ -78,9 +75,9 @@ int main()
             }
             case '4': {
                 system("cls");
-                /*for (int i=0;i<shapes.size();i++) {
-                    cout<<*shapes[i];
-                }*/
+                for (int i=0;i<shapes.size();i++) {
+                    cout<<*(shapes[i]);
+                }
                 SquareComposite s(50,80,130,150,Color::RED);
                 cout<<s;
                 SquareAggregated t(50,80,130,150,Color::RED);
@@ -88,13 +85,19 @@ int main()
                 CircleComposite cp(50,30,130,Color::RED);
                 cout<<cp;
                 Lne l(50,80,150,200,Color::RED);
-                cout<<l;
+                cout<<l<<endl;
+                cout<<endl<<"Press Any Key to Continue...";
                 _getch();
                 break;
             }
             case '5': {
+                shapes.clear();
+                break;
+            }
+            case '6': {
                 return 0;
             }
+            default: break;
         }
 
     }
